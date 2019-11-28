@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import Header from './components/Header';
+import Skills from './components/Skills';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Container>
+				<Row className="justify-content-md-center">
+					<Col sm={8}>
+            <Header />
+          </Col>
+				</Row>
+        <Skills></Skills>
+			</Container>
+		</div>
+	);
 }
 
 export default App;

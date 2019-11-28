@@ -1,22 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  font-family: 'Operator Mono', 'Menlo', 'Monaco', 'Courier New';
+}
 .App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.justify-content-md-center{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.dev-icon {
+  font-size: 48px;
 }
