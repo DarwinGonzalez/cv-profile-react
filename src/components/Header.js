@@ -14,7 +14,6 @@ const StyledHeader = styled.header`
     margin-bottom: 10%;
 `;
 
-
 const Header = () => (
     <StyledHeader>
         <Image src="./images/avatar.png" roundedCircle />
