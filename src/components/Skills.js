@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
 	DiAngularSimple,
 	DiCss3,
@@ -12,7 +11,6 @@ import {
 	DiNodejsSmall,
 	DiDocker
 } from 'react-icons/di';
-
 import { Line } from 'rc-progress';
 import { Col, Row } from 'react-bootstrap';
 

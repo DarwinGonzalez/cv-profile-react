@@ -4,6 +4,8 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './components/Header';
 import Skills from './components/Skills';
+import About from './components/About';
+import Timeline from './components/Timeline';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
           </Col>
 				</Row>
         <Skills></Skills>
+        <About></About>
+        <Timeline></Timeline>
 			</Container>
 		</div>
 	);
