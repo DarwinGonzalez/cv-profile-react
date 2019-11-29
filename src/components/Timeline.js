@@ -32,6 +32,10 @@ const TimelineComponent = () => (
                         <DiDatabase className="dev-icon-md"></DiDatabase>
 					</p>
 				</TimelineItem>
+				<TimelineItem key="004" dateText="2018 – 2019" dateInnerStyle={{ background: '#76bb7f' }}>
+					<h3>Máster en Tecnologías Web, Computación en la Nube y Aplicaciones Móviles</h3>
+					<h4>Universidad de Valencia</h4>
+				</TimelineItem>
 				<TimelineItem
 					key="003"
 					dateText="3/2018 – 6/2018"
@@ -41,10 +45,6 @@ const TimelineComponent = () => (
 					<p>
 						<DiJava className="dev-icon-md"></DiJava>
 					</p>
-				</TimelineItem>
-				<TimelineItem key="004" dateText="2018 – 2019" dateInnerStyle={{ background: '#76bb7f' }}>
-					<h3>Máster en Tecnologías Web, Computación en la Nube y Aplicaciones Móviles</h3>
-					<h4>Universidad de Valencia</h4>
 				</TimelineItem>
                 <TimelineItem key="005" dateText="2013 – 2018" dateInnerStyle={{ background: '#76bb7f' }}>
 					<h3>Grado en Ingeniería informática</h3>
