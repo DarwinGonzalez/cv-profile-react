@@ -2,6 +2,7 @@
   "name": "cv-project",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://DarwinGonzalez.github.io/cv-project",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "rc-progress": "^2.5.2",
