@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Skills from './components/Skills';
 import About from './components/About';
 import Timeline from './components/Timeline';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Skills></Skills>
         <About></About>
         <Timeline></Timeline>
+        <Contact></Contact>
 			</Container>
 		</div>
 	);

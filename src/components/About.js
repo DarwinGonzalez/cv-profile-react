@@ -15,7 +15,6 @@ const StyleDescriptionYoda = styled.div`
 const StylePhraseYoda = styled.p`
     margin-top: 0.5%;
     font-size: 1.8rem;
-    color
 `;
 
 const About = () => (

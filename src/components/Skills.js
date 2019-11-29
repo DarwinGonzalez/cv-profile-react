@@ -22,7 +22,7 @@ const Skills = () => (
 					<DiAngularSimple className="dev-icon" />
 				</Col>
 				<Col sm={9}>
-					<Line percent="70" strokeWidth="4" strokeColor="#b52e31" />
+					<Line percent="75" strokeWidth="4" strokeColor="#b52e31" />
 				</Col>
 			</Row>
 			<Row>

@@ -33,7 +33,7 @@ const TimelineComponent = () => (
 					</p>
 				</TimelineItem>
 				<TimelineItem
-					key="002"
+					key="003"
 					dateText="3/2018 – 6/2018"
 					dateInnerStyle={{ background: '#61b8ff'}}>
 					<h3>Estudiante en prácticas</h3>
@@ -46,7 +46,7 @@ const TimelineComponent = () => (
 					<h3>Máster en Tecnologías Web, Computación en la Nube y Aplicaciones Móviles</h3>
 					<h4>Universidad de Valencia</h4>
 				</TimelineItem>
-                <TimelineItem key="004" dateText="2013 – 2018" dateInnerStyle={{ background: '#76bb7f' }}>
+                <TimelineItem key="005" dateText="2013 – 2018" dateInnerStyle={{ background: '#76bb7f' }}>
 					<h3>Grado en Ingeniería informática</h3>
 					<h4>Universidad de La Laguna</h4>
 				</TimelineItem>

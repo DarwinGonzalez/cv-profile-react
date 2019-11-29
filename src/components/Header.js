@@ -16,7 +16,7 @@ const StyledHeader = styled.header`
 
 const Header = () => (
     <StyledHeader>
-        <Image src="./images/avatar.png" roundedCircle />
+        <Image src="./images/avatar.jpg" roundedCircle />
         <StyleTitle>
             Darwin González Suárez
         </StyleTitle>
