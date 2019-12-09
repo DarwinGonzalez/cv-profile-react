@@ -8,20 +8,19 @@ import About from './components/About';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 
-
 function App() {
 	return (
 		<div className="App">
 			<Container>
 				<Row className="justify-content-md-center">
 					<Col sm={8}>
-            <Header />
-          </Col>
+						<Header />
+					</Col>
 				</Row>
-        <Skills></Skills>
-        <About></About>
-        <Timeline></Timeline>
-        <Contact></Contact>
+				<Skills />
+				<About />
+				<Timeline />
+				<Contact />
 			</Container>
 		</div>
 	);
