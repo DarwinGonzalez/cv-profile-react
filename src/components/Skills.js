@@ -21,8 +21,8 @@ const Skills = () => (
 				<Col sm={2}>
 					<DiAngularSimple className="dev-icon" />
 				</Col>
-				<Col sm={9}>
-					<Line percent="75" strokeWidth="4" strokeColor="#b52e31" />
+				<Col sm={10}>
+					<Line percent="85" strokeWidth="4" strokeColor="#b52e31" />
 				</Col>
 			</Row>
 			<Row>
@@ -30,7 +30,7 @@ const Skills = () => (
 					<DiReact className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="65" strokeWidth="4" strokeColor="#00d8ff" />
+					<Line percent="75" strokeWidth="4" strokeColor="#00d8ff" />
 				</Col>
 			</Row>
 			<Row>
@@ -38,7 +38,7 @@ const Skills = () => (
 					<DiNodejsSmall className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="80" strokeWidth="4" strokeColor="#6cc24a" />
+					<Line percent="85" strokeWidth="4" strokeColor="#6cc24a" />
 				</Col>
 			</Row>
 			<Row>
@@ -54,7 +54,7 @@ const Skills = () => (
 					<DiGit className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="80" strokeWidth="4" strokeColor="#e24329" />
+					<Line percent="90" strokeWidth="4" strokeColor="#e24329" />
 				</Col>
 			</Row>
 		</Col>
@@ -72,7 +72,7 @@ const Skills = () => (
 					<DiJsBadge className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="85" strokeWidth="4" strokeColor="#ffc600" />
+					<Line percent="90" strokeWidth="4" strokeColor="#ffc600" />
 				</Col>
 			</Row>
 			<Row>
@@ -80,7 +80,7 @@ const Skills = () => (
 					<DiMysql className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="60" strokeWidth="4" strokeColor="#00758f" />
+					<Line percent="75" strokeWidth="4" strokeColor="#00758f" />
 				</Col>
 			</Row>
 			<Row>
@@ -88,7 +88,7 @@ const Skills = () => (
 					<DiMongodb className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="65" strokeWidth="4" strokeColor="#589636" />
+					<Line percent="75" strokeWidth="4" strokeColor="#589636" />
 				</Col>
 			</Row>
 			<Row>
@@ -96,7 +96,7 @@ const Skills = () => (
 					<DiDocker className="dev-icon" />
 				</Col>
 				<Col sm={10}>
-					<Line percent="75" strokeWidth="4" strokeColor="#0db7ed" />
+					<Line percent="85" strokeWidth="4" strokeColor="#0db7ed" />
 				</Col>
 			</Row>
 		</Col>
